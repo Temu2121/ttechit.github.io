@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="https://www.w3schools.com/action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to register to course.</p>
+    <hr>
+
+    <label for="name"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Full Name" name="name" required>
+
+    <label for="age"><b>Age</b></label>
+    <input type="text" placeholder="Enter Age" name="age" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="course"><b>Course</b></label>
+    <input type="text" placeholder="Enter the course you want to learn" name="email" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter your active Email" name="email" required>
+
+    <label for="nationality"><b>Nationality</b></label>
+    <input type="text" placeholder="Enter Your Nationality" name="nationality" required>
+    
+    <label for="email"><b>Address/Location</b></label>
+    <input type="text" placeholder="Enter your current Location" name="email" required>
+
+    <label for="phone1"><b>Phone Number 1</b></label>
+    <input type="text" placeholder="Enter your phone number" name="phone1" required>
+
+    <label for="phone2"><b>Phone Number 2</b></label>
+    <input type="text" placeholder="Enter another Phone Number(Optional)" name="phone2" >
+    <hr>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+</form>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_register_form by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:38:48 GMT -->
+</html>
