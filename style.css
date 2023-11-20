@@ -358,6 +358,11 @@ body {
       width: 100%;
       display: block;
     }
+    .column3 {
+      width: 100%;
+      display: block;
+    
+    }
 
     .row{
       width: 80%;
